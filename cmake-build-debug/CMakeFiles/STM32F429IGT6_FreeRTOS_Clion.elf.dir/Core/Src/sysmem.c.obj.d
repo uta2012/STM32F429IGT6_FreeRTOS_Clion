@@ -1,0 +1,20 @@
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/sysmem.c.obj: \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\sysmem.c \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\errno.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\errno.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\reent.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\newlib.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\_newlib_version.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\config.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\features.h \
+ c:\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_types.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\_types.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\_default_types.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\lock.h \
+ c:\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\stdint.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h

@@ -1,0 +1,3 @@
+D:/STM32F429IGT6_FreeRTOS_Clion/cmake-build-debug/CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir
+D:/STM32F429IGT6_FreeRTOS_Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/STM32F429IGT6_FreeRTOS_Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
