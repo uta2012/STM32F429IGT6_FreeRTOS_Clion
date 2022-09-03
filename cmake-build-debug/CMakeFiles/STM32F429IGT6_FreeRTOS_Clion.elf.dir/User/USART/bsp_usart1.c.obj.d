@@ -32,14 +32,17 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj: \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/gpio.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/usart.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/main.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\LED/bsp_led.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/gpio.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\USART/bsp_usart1.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\stdio.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
@@ -68,7 +71,6 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj: \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\DHT11/bsp_dht11.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/main.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\Functions/delay.h \
- D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/usart.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\USART\retarget.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\stat.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\time.h \

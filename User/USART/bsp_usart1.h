@@ -24,8 +24,6 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx.h"
-#include "gpio.h"
-#include "stdio.h"
 #include "usart.h"
 #include "retarget.h"
 

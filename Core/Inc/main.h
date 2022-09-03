@@ -62,12 +62,20 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define DHT11_DATA_Pin GPIO_PIN_2
 #define DHT11_DATA_GPIO_Port GPIOE
+#define KEY_2_Pin GPIO_PIN_13
+#define KEY_2_GPIO_Port GPIOC
+#define KEY_1_Pin GPIO_PIN_0
+#define KEY_1_GPIO_Port GPIOA
 #define LED_R_Pin GPIO_PIN_10
 #define LED_R_GPIO_Port GPIOH
 #define LED_G_Pin GPIO_PIN_11
 #define LED_G_GPIO_Port GPIOH
 #define LED_B_Pin GPIO_PIN_12
 #define LED_B_GPIO_Port GPIOH
+#define MPU6050_SCL_Pin GPIO_PIN_6
+#define MPU6050_SCL_GPIO_Port GPIOB
+#define MPU6050_SDA_Pin GPIO_PIN_7
+#define MPU6050_SDA_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

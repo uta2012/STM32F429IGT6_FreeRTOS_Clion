@@ -91,8 +91,7 @@ uint8_t DHT11_Read_Temperature_and_Humidity(DHT11_DATA_TypeDef *DHT11_data)
 
     DHT11_Pin_Mode(Input);
     DHT11_DATA_RESET();
-    HAL_Delay(18);
-
+    Delay_ms(18);
     DHT11_DATA_SET();
     Delay_us(30);
     DHT11_Pin_Mode(Output);

@@ -68,7 +68,12 @@ void Delay_us(uint32_t us)
 //SystemCoreClock为系统时钟(system_stmf4xx.c中)，通常选择该时钟作为
 //systick定时器时钟，根据具体情况更改
 
+void Delay_ms(uint32_t ms)
+{
+    while(ms--)
+        Delay_us(1000);
 
+}
 
 
 /********************************End of File************************************/

@@ -176,6 +176,30 @@ Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
 
+Core/Src/i2c.obj: Core/Src/i2c.c.obj
+.PHONY : Core/Src/i2c.obj
+
+# target to build an object file
+Core/Src/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/i2c.c.obj
+.PHONY : Core/Src/i2c.c.obj
+
+Core/Src/i2c.i: Core/Src/i2c.c.i
+.PHONY : Core/Src/i2c.i
+
+# target to preprocess a source file
+Core/Src/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/i2c.c.i
+.PHONY : Core/Src/i2c.c.i
+
+Core/Src/i2c.s: Core/Src/i2c.c.s
+.PHONY : Core/Src/i2c.s
+
+# target to generate assembly for a file
+Core/Src/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/i2c.c.s
+.PHONY : Core/Src/i2c.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -591,6 +615,54 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: Drivers/STM32F4xx_HAL_Dri
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
@@ -1072,6 +1144,30 @@ User/LED/bsp_led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.s
 .PHONY : User/LED/bsp_led.c.s
 
+User/MPU6050/bsp_mpu6050.obj: User/MPU6050/bsp_mpu6050.c.obj
+.PHONY : User/MPU6050/bsp_mpu6050.obj
+
+# target to build an object file
+User/MPU6050/bsp_mpu6050.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.obj
+.PHONY : User/MPU6050/bsp_mpu6050.c.obj
+
+User/MPU6050/bsp_mpu6050.i: User/MPU6050/bsp_mpu6050.c.i
+.PHONY : User/MPU6050/bsp_mpu6050.i
+
+# target to preprocess a source file
+User/MPU6050/bsp_mpu6050.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.i
+.PHONY : User/MPU6050/bsp_mpu6050.c.i
+
+User/MPU6050/bsp_mpu6050.s: User/MPU6050/bsp_mpu6050.c.s
+.PHONY : User/MPU6050/bsp_mpu6050.s
+
+# target to generate assembly for a file
+User/MPU6050/bsp_mpu6050.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\build.make CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.s
+.PHONY : User/MPU6050/bsp_mpu6050.c.s
+
 User/USART/bsp_usart1.obj: User/USART/bsp_usart1.c.obj
 .PHONY : User/USART/bsp_usart1.obj
 
@@ -1135,6 +1231,9 @@ help:
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
+	@echo ... Core/Src/i2c.obj
+	@echo ... Core/Src/i2c.i
+	@echo ... Core/Src/i2c.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
@@ -1187,6 +1286,12 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s
@@ -1247,6 +1352,9 @@ help:
 	@echo ... User/LED/bsp_led.obj
 	@echo ... User/LED/bsp_led.i
 	@echo ... User/LED/bsp_led.s
+	@echo ... User/MPU6050/bsp_mpu6050.obj
+	@echo ... User/MPU6050/bsp_mpu6050.i
+	@echo ... User/MPU6050/bsp_mpu6050.s
 	@echo ... User/USART/bsp_usart1.obj
 	@echo ... User/USART/bsp_usart1.i
 	@echo ... User/USART/bsp_usart1.s

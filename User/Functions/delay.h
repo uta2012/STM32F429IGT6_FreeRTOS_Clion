@@ -36,7 +36,7 @@ extern void vPortSetupTimerInterrupt( void );
 
 
 void Delay_us(__IO uint32_t delay);
-
+void Delay_ms(__IO uint32_t ms);
 
 
 #endif //__DELAY_H__

@@ -33,6 +33,8 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.obj: \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
@@ -41,18 +43,20 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.obj: \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\LED/bsp_led.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/gpio.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\USART/bsp_usart1.h \
- c:\gnuarm~1\102021~1.10\arm-none-eabi\include\stdio.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\User\USART/retarget.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\stat.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\newlib.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\config.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
- c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\cdefs.h \
- c:\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
- c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\reent.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\time.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\cdefs.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\reent.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_types.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\_types.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\lock.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\time.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\types.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\endian.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\_endian.h \
@@ -64,12 +68,10 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.obj: \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_pthreadtypes.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\sched.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\types.h \
- c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\stdio.h \
- D:\STM32F429IGT6_FreeRTOS_Clion\User\USART/retarget.h \
- c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\stat.h \
- c:\gnuarm~1\102021~1.10\arm-none-eabi\include\time.h \
- c:\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\time.h \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_locale.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\stdio.h \
+ c:\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
+ c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\stdio.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\DHT11/bsp_dht11.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/main.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\Functions/delay.h
