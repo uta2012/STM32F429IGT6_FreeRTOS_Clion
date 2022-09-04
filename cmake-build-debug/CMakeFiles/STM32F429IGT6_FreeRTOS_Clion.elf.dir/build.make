@@ -124,10 +124,24 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/main.c.s"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\main.c -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\main.c.s
 
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.obj"
+	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\spi.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\spi.c
+
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.i"
+	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\spi.c > CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\spi.c.i
+
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.s"
+	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\spi.c -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\spi.c.s
+
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Core/Src/stm32f4xx_hal_timebase_tim.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\stm32f4xx_hal_timebase_tim.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/syscalls.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\syscalls.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\syscalls.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/syscalls.c.s: cmake_for
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/sysmem.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\sysmem.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\sysmem.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/system_stm32f4xx.c.s: c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Src\usart.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Core\Src\usart.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj: ../Core/Startup/startup_stm32f429igtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Core\Startup\startup_stm32f429igtx.s.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Core\Startup\startup_stm32f429igtx.s
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Startup/startup_stm32f429igtx.s.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Startup/startup_stm32f429ig
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -445,10 +459,24 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
+	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
+	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -462,7 +490,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -476,7 +504,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -490,7 +518,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
@@ -504,7 +532,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -518,7 +546,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -532,7 +560,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -546,7 +574,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -560,7 +588,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -574,7 +602,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -588,7 +616,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -602,7 +630,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -616,7 +644,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -630,7 +658,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Middlewares/Third_Party/FreeRTOS
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/DHT11/bsp_dht11.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/DHT11/bsp_dht11.c.obj: ../User/DHT11/bsp_dht11.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/DHT11/bsp_dht11.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/DHT11/bsp_dht11.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/DHT11/bsp_dht11.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/DHT11/bsp_dht11.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\DHT11\bsp_dht11.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\DHT11\bsp_dht11.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\User\DHT11\bsp_dht11.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/DHT11/bsp_dht11.c.i: cmake_force
@@ -644,7 +672,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/DHT11/bsp_dht11.c.s: cmake_
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.obj: ../User/Functions/delay.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\Functions\delay.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\Functions\delay.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\User\Functions\delay.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.i: cmake_force
@@ -658,7 +686,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.s: cmake_
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.obj: ../User/LED/bsp_led.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\LED\bsp_led.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\LED\bsp_led.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\User\LED\bsp_led.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.i: cmake_force
@@ -672,7 +700,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.s: cmake_forc
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.obj: ../User/MPU6050/bsp_mpu6050.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\MPU6050\bsp_mpu6050.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\MPU6050\bsp_mpu6050.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\User\MPU6050\bsp_mpu6050.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.i: cmake_force
@@ -683,10 +711,24 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.s: cm
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.s"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32F429IGT6_FreeRTOS_Clion\User\MPU6050\bsp_mpu6050.c -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\MPU6050\bsp_mpu6050.c.s
 
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.obj: ../User/OLED/bsp_096oled.c
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.obj"
+	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\OLED\bsp_096oled.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\OLED\bsp_096oled.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\User\OLED\bsp_096oled.c
+
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.i"
+	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32F429IGT6_FreeRTOS_Clion\User\OLED\bsp_096oled.c > CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\OLED\bsp_096oled.c.i
+
+CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.s"
+	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32F429IGT6_FreeRTOS_Clion\User\OLED\bsp_096oled.c -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\OLED\bsp_096oled.c.s
+
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj: ../User/USART/bsp_usart1.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\USART\bsp_usart1.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\USART\bsp_usart1.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\User\USART\bsp_usart1.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.i: cmake_force
@@ -700,7 +742,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.s: cmake
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/retarget.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/flags.make
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/retarget.c.obj: ../User/USART/retarget.c
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/retarget.c.obj: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/retarget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/retarget.c.obj"
 	C:\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/retarget.c.obj -MF CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\USART\retarget.c.obj.d -o CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\User\USART\retarget.c.obj -c D:\STM32F429IGT6_FreeRTOS_Clion\User\USART\retarget.c
 
 CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/retarget.c.i: cmake_force
@@ -717,6 +759,7 @@ STM32F429IGT6_FreeRTOS_Clion_elf_OBJECTS = \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/i2c.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/main.c.obj" \
+"CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj" \
@@ -740,6 +783,7 @@ STM32F429IGT6_FreeRTOS_Clion_elf_OBJECTS = \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
@@ -757,6 +801,7 @@ STM32F429IGT6_FreeRTOS_Clion_elf_OBJECTS = \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.obj" \
+"CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj" \
 "CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/retarget.c.obj"
 
@@ -767,6 +812,7 @@ STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.di
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/gpio.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/i2c.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/main.c.obj
+STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/spi.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj
@@ -790,6 +836,7 @@ STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.di
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
@@ -807,12 +854,13 @@ STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.di
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/Functions/delay.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/LED/bsp_led.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/MPU6050/bsp_mpu6050.c.obj
+STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/OLED/bsp_096oled.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/bsp_usart1.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/User/USART/retarget.c.obj
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/build.make
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/objects1.rsp
 STM32F429IGT6_FreeRTOS_Clion.elf: CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking C executable STM32F429IGT6_FreeRTOS_Clion.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\STM32F429IGT6_FreeRTOS_Clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking C executable STM32F429IGT6_FreeRTOS_Clion.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\STM32F429IGT6_FreeRTOS_Clion.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32F429IGT6_FreeRTOS_Clion/cmake-build-debug/STM32F429IGT6_FreeRTOS_Clion.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32F429IGT6_FreeRTOS_Clion/cmake-build-debug/STM32F429IGT6_FreeRTOS_Clion.bin"

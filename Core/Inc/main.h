@@ -35,6 +35,7 @@ extern "C" {
 #include "bsp_usart1.h"
 #include "stdio.h"
 #include "bsp_dht11.h"
+#include "bsp_096oled.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -66,6 +67,10 @@ void Error_Handler(void);
 #define KEY_2_GPIO_Port GPIOC
 #define KEY_1_Pin GPIO_PIN_0
 #define KEY_1_GPIO_Port GPIOA
+#define OLED_RES_Pin GPIO_PIN_1
+#define OLED_RES_GPIO_Port GPIOA
+#define OLED_DC_Pin GPIO_PIN_2
+#define OLED_DC_GPIO_Port GPIOA
 #define LED_R_Pin GPIO_PIN_10
 #define LED_R_GPIO_Port GPIOH
 #define LED_G_Pin GPIO_PIN_11

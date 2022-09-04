@@ -51,10 +51,11 @@ osThreadId defaultTaskHandle;
 uint32_t defaultTaskBuffer[ 128 ];
 osStaticThreadDef_t defaultTaskControlBlock;
 osThreadId Print1Handle;
-osThreadId myPrint2Handle;
+osThreadId Print2Handle;
 osThreadId LEDHandle;
 osThreadId KEYHandle;
 osThreadId DHT11Handle;
+osThreadId OLEDHandle;
 osMessageQId QueuePrintHandle;
 osMutexId USART1_MutexHandle;
 osStaticMutexDef_t USART1_MutexControlBlock;
@@ -70,6 +71,7 @@ void StartPrint2(void const * argument);
 void StartLED(void const * argument);
 void StartKEY(void const * argument);
 void StartDHT11(void const * argument);
+void StartOLED(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -133,12 +135,12 @@ void MX_FREERTOS_Init(void) {
   osThreadDef(Print1, StartPrint1, osPriorityIdle, 0, 512);
   Print1Handle = osThreadCreate(osThread(Print1), NULL);
 
-  /* definition and creation of myPrint2 */
-  osThreadDef(myPrint2, StartPrint2, osPriorityIdle, 0, 512);
-  myPrint2Handle = osThreadCreate(osThread(myPrint2), NULL);
+  /* definition and creation of Print2 */
+  osThreadDef(Print2, StartPrint2, osPriorityIdle, 0, 512);
+  Print2Handle = osThreadCreate(osThread(Print2), NULL);
 
   /* definition and creation of LED */
-  osThreadDef(LED, StartLED, osPriorityIdle, 0, 64);
+  osThreadDef(LED, StartLED, osPriorityLow, 0, 64);
   LEDHandle = osThreadCreate(osThread(LED), NULL);
 
   /* definition and creation of KEY */
@@ -146,8 +148,12 @@ void MX_FREERTOS_Init(void) {
   KEYHandle = osThreadCreate(osThread(KEY), NULL);
 
   /* definition and creation of DHT11 */
-  osThreadDef(DHT11, StartDHT11, osPriorityNormal, 0, 430);
+  osThreadDef(DHT11, StartDHT11, osPriorityIdle, 0, 430);
   DHT11Handle = osThreadCreate(osThread(DHT11), NULL);
+
+  /* definition and creation of OLED */
+  osThreadDef(OLED, StartOLED, osPriorityIdle, 0, 64);
+  OLEDHandle = osThreadCreate(osThread(OLED), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -165,17 +171,19 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void const * argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
-  uint32_t task1, task2, task3, task4,task5,task6;
+  uint32_t task1, task2, task3, task4, task5, task6, task7;
   /* Infinite loop */
   for(;;)
   {
       task1 = uxTaskGetStackHighWaterMark(NULL);
       task2 = uxTaskGetStackHighWaterMark(Print1Handle);
-      task3 = uxTaskGetStackHighWaterMark(myPrint2Handle);
+      task3 = uxTaskGetStackHighWaterMark(Print2Handle);
       task4 = uxTaskGetStackHighWaterMark(LEDHandle);
       task5 = uxTaskGetStackHighWaterMark(KEYHandle);
       task6 = uxTaskGetStackHighWaterMark(DHT11Handle);
-      printf("task1 : %ld\ntask2 : %ld\ntask3 : %ld\ntask4 : %ld\ntask5 : %ld\ntask6 : %ld\n", task1, task2, task3, task4, task5, task6);
+      task7 = uxTaskGetStackHighWaterMark(OLEDHandle);
+      printf("task1 : %ld\ntask2 : %ld\ntask3 : %ld\ntask4 : %ld\ntask5 : %ld\ntask6 : %ld\ntask7 : %ld\n",
+             task1, task2, task3, task4, task5, task6, task7);
     osDelay(5000);
   }
   /* USER CODE END StartDefaultTask */
@@ -191,13 +199,13 @@ void StartDefaultTask(void const * argument)
 void StartPrint1(void const * argument)
 {
   /* USER CODE BEGIN StartPrint1 */
-    uint32_t a = 0;
+//    uint32_t a = 0;
   /* Infinite loop */
   for(;;)
   {
 
-    printf("a : %d\n", a);
-    xQueueReceive( QueuePrintHandle, &a, 0 );
+//    printf("a : %d\n", a);
+//    xQueueReceive( QueuePrintHandle, &a, 0 );
     osDelay(1000);
   }
   /* USER CODE END StartPrint1 */
@@ -213,13 +221,13 @@ void StartPrint1(void const * argument)
 void StartPrint2(void const * argument)
 {
   /* USER CODE BEGIN StartPrint2 */
-    uint32_t b = 0;
+//    uint32_t b = 0;
 
   /* Infinite loop */
   for(;;)
   {
-    printf("b : %d\n", b++);
-    xQueueSend( QueuePrintHandle, &b, 0);
+//    printf("b : %d\n", b++);
+//    xQueueSend( QueuePrintHandle, &b, 0);
     osDelay(3000);
   }
   /* USER CODE END StartPrint2 */
@@ -235,11 +243,31 @@ void StartPrint2(void const * argument)
 void StartLED(void const * argument)
 {
   /* USER CODE BEGIN StartLED */
+  uint32_t t;
+  uint8_t mode = 0;
   /* Infinite loop */
   for(;;)
   {
-    //HAL_GPIO_TogglePin(LED_G_GPIO_Port, LED_B_Pin);
-    osDelay(1000);
+
+      for(t=0; t<1000; t++)
+      {
+          HAL_GPIO_WritePin(GPIOH, GPIO_PIN_10|GPIO_PIN_11|GPIO_PIN_12, GPIO_PIN_SET);
+          Delay_us(1000-t);
+          HAL_GPIO_WritePin(GPIOH, GPIO_PIN_10|GPIO_PIN_11|GPIO_PIN_12, GPIO_PIN_RESET);
+          Delay_us(t);
+
+      }
+      for(t=0; t<1000; t++)
+      {
+          HAL_GPIO_WritePin(GPIOH, GPIO_PIN_10|GPIO_PIN_11|GPIO_PIN_12, GPIO_PIN_RESET);
+          Delay_us(1000-t);
+          HAL_GPIO_WritePin(GPIOH, GPIO_PIN_10|GPIO_PIN_11|GPIO_PIN_12, GPIO_PIN_SET);
+          Delay_us(t);
+
+      }
+
+      osDelay(5000);
+
   }
   /* USER CODE END StartLED */
 }
@@ -290,12 +318,32 @@ void StartDHT11(void const * argument)
   {
 
     printf("T : %d.%d\n", DHT11_data.temperature_int, DHT11_data.temperature_float);
-
     printf("H : %d.%d\t\n", DHT11_data.humidity_int, DHT11_data.humidity_float);
     DHT11_Read_Temperature_and_Humidity(&DHT11_data);
     osDelay(5000);
   }
   /* USER CODE END StartDHT11 */
+}
+
+/* USER CODE BEGIN Header_StartOLED */
+/**
+* @brief Function implementing the OLED thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_StartOLED */
+void StartOLED(void const * argument)
+{
+  /* USER CODE BEGIN StartOLED */
+
+  /* Infinite loop */
+  for(;;)
+  {
+      //OLED_Put_Char(0, 0);
+      OLED_Put_Char(10, 10);
+    osDelay(1000);
+  }
+  /* USER CODE END StartOLED */
 }
 
 /* Private application code --------------------------------------------------*/

@@ -35,6 +35,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_hal_timebase_
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h

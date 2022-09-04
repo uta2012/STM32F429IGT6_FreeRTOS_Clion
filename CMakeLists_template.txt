@@ -48,11 +48,11 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(${includes} User/LED User/USART User/DHT11 User/Functions User/MPU6050)
+include_directories(${includes} User/LED User/USART User/DHT11 User/Functions User/MPU6050 User/OLED)
 
 add_definitions(${defines})
 
-file(GLOB_RECURSE SOURCES ${sources} "User/LED/*.*" "User/USART/*.*" "User/DHT11/*.*" "User/Functions/*.*" "User/MPU6050/*.*")
+file(GLOB_RECURSE SOURCES ${sources} "User/LED/*.*" "User/USART/*.*" "User/DHT11/*.*" "User/Functions/*.*" "User/MPU6050/*.*" "User/OLED/*.*")
 
 set(LINKER_SCRIPT $${CMAKE_SOURCE_DIR}/${linkerScript})
 

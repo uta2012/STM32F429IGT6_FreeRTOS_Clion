@@ -37,6 +37,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/i2c.c.obj: \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
@@ -75,4 +76,7 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/i2c.c.obj: \
  c:\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\stdio.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\DHT11/bsp_dht11.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/main.h \
- D:\STM32F429IGT6_FreeRTOS_Clion\User\Functions/delay.h
+ D:\STM32F429IGT6_FreeRTOS_Clion\User\Functions/delay.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\User\OLED/bsp_096oled.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/spi.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\User\OLED/oledfont.h

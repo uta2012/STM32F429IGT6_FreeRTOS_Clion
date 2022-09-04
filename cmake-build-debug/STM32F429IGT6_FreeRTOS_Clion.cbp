@@ -43,6 +43,7 @@
 					<Add directory="D:/STM32F429IGT6_FreeRTOS_Clion/User/DHT11"/>
 					<Add directory="D:/STM32F429IGT6_FreeRTOS_Clion/User/Functions"/>
 					<Add directory="D:/STM32F429IGT6_FreeRTOS_Clion/User/MPU6050"/>
+					<Add directory="D:/STM32F429IGT6_FreeRTOS_Clion/User/OLED"/>
 					<Add directory="c:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -83,6 +84,7 @@
 					<Add directory="D:/STM32F429IGT6_FreeRTOS_Clion/User/DHT11"/>
 					<Add directory="D:/STM32F429IGT6_FreeRTOS_Clion/User/Functions"/>
 					<Add directory="D:/STM32F429IGT6_FreeRTOS_Clion/User/MPU6050"/>
+					<Add directory="D:/STM32F429IGT6_FreeRTOS_Clion/User/OLED"/>
 					<Add directory="c:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -130,10 +132,16 @@
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Core/Inc/main.h">
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Core/Inc/spi.h">
+			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Core/Inc/stm32f4xx_it.h">
+			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Core/Inc/tim.h">
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Core/Inc/usart.h">
@@ -149,6 +157,9 @@
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Core/Src/main.c">
+			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Core/Src/spi.c">
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Core/Src/stm32f4xx_hal_msp.c">
@@ -307,6 +318,9 @@
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
+		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
+		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
@@ -395,6 +409,9 @@
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
@@ -521,6 +538,18 @@
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/User/MPU6050/bsp_mpu6050.h">
+			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/User/OLED/bmp.h">
+			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/User/OLED/bsp_096oled.c">
+			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/User/OLED/bsp_096oled.h">
+			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
+		</Unit>
+		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/User/OLED/oledfont.h">
 			<Option target="STM32F429IGT6_FreeRTOS_Clion.elf"/>
 		</Unit>
 		<Unit filename="D:/STM32F429IGT6_FreeRTOS_Clion/User/USART/bsp_usart1.c">
