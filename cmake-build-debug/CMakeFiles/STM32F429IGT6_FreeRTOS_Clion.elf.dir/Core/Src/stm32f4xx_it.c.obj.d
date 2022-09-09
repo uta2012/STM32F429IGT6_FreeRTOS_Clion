@@ -78,5 +78,6 @@ CMakeFiles/STM32F429IGT6_FreeRTOS_Clion.elf.dir/Core/Src/stm32f4xx_it.c.obj: \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\Functions/delay.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\User\OLED/bsp_096oled.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/spi.h \
- D:\STM32F429IGT6_FreeRTOS_Clion\User\OLED/oledfont.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\User\OLED/oled_font.h \
+ D:\STM32F429IGT6_FreeRTOS_Clion\User\ESP-01S/bsp_esp01s.h \
  D:\STM32F429IGT6_FreeRTOS_Clion\Core\Inc/stm32f4xx_it.h

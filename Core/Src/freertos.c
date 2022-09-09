@@ -56,7 +56,9 @@ osThreadId LEDHandle;
 osThreadId KEYHandle;
 osThreadId DHT11Handle;
 osThreadId OLEDHandle;
-osMessageQId QueuePrintHandle;
+osThreadId ESP01SHandle;
+osMessageQId TemperatureHandle;
+osMessageQId HumidityHandle;
 osMutexId USART1_MutexHandle;
 osStaticMutexDef_t USART1_MutexControlBlock;
 
@@ -72,6 +74,7 @@ void StartLED(void const * argument);
 void StartKEY(void const * argument);
 void StartDHT11(void const * argument);
 void StartOLED(void const * argument);
+void StartESP01S(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -118,9 +121,13 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE END RTOS_TIMERS */
 
   /* Create the queue(s) */
-  /* definition and creation of QueuePrint */
-  osMessageQDef(QueuePrint, 8, uint32_t);
-  QueuePrintHandle = osMessageCreate(osMessageQ(QueuePrint), NULL);
+  /* definition and creation of Temperature */
+  osMessageQDef(Temperature, 4, uint8_t);
+  TemperatureHandle = osMessageCreate(osMessageQ(Temperature), NULL);
+
+  /* definition and creation of Humidity */
+  osMessageQDef(Humidity, 4, uint8_t);
+  HumidityHandle = osMessageCreate(osMessageQ(Humidity), NULL);
 
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
@@ -132,11 +139,11 @@ void MX_FREERTOS_Init(void) {
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* definition and creation of Print1 */
-  osThreadDef(Print1, StartPrint1, osPriorityIdle, 0, 512);
+  osThreadDef(Print1, StartPrint1, osPriorityIdle, 0, 64);
   Print1Handle = osThreadCreate(osThread(Print1), NULL);
 
   /* definition and creation of Print2 */
-  osThreadDef(Print2, StartPrint2, osPriorityIdle, 0, 512);
+  osThreadDef(Print2, StartPrint2, osPriorityIdle, 0, 64);
   Print2Handle = osThreadCreate(osThread(Print2), NULL);
 
   /* definition and creation of LED */
@@ -148,12 +155,16 @@ void MX_FREERTOS_Init(void) {
   KEYHandle = osThreadCreate(osThread(KEY), NULL);
 
   /* definition and creation of DHT11 */
-  osThreadDef(DHT11, StartDHT11, osPriorityIdle, 0, 430);
+  osThreadDef(DHT11, StartDHT11, osPriorityIdle, 0, 80);
   DHT11Handle = osThreadCreate(osThread(DHT11), NULL);
 
   /* definition and creation of OLED */
   osThreadDef(OLED, StartOLED, osPriorityIdle, 0, 64);
   OLEDHandle = osThreadCreate(osThread(OLED), NULL);
+
+  /* definition and creation of ESP01S */
+  osThreadDef(ESP01S, StartESP01S, osPriorityIdle, 0, 512);
+  ESP01SHandle = osThreadCreate(osThread(ESP01S), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -171,7 +182,7 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void const * argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
-  uint32_t task1, task2, task3, task4, task5, task6, task7;
+  uint32_t task1, task2, task3, task4, task5, task6, task7, task8;
   /* Infinite loop */
   for(;;)
   {
@@ -182,9 +193,10 @@ void StartDefaultTask(void const * argument)
       task5 = uxTaskGetStackHighWaterMark(KEYHandle);
       task6 = uxTaskGetStackHighWaterMark(DHT11Handle);
       task7 = uxTaskGetStackHighWaterMark(OLEDHandle);
-      printf("task1 : %ld\ntask2 : %ld\ntask3 : %ld\ntask4 : %ld\ntask5 : %ld\ntask6 : %ld\ntask7 : %ld\n",
-             task1, task2, task3, task4, task5, task6, task7);
-    osDelay(5000);
+      task8 = uxTaskGetStackHighWaterMark(ESP01SHandle);
+      printf("task1 : %ld\ntask2 : %ld\ntask3 : %ld\ntask4 : %ld\ntask5 : %ld\ntask6 : %ld\ntask7 : %ld\ntask8 : %ld\n",
+             task1, task2, task3, task4, task5, task6, task7, task8);
+    osDelay(100000);
   }
   /* USER CODE END StartDefaultTask */
 }
@@ -244,7 +256,7 @@ void StartLED(void const * argument)
 {
   /* USER CODE BEGIN StartLED */
   uint32_t t;
-  uint8_t mode = 0;
+
   /* Infinite loop */
   for(;;)
   {
@@ -316,10 +328,11 @@ void StartDHT11(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-
-    printf("T : %d.%d\n", DHT11_data.temperature_int, DHT11_data.temperature_float);
-    printf("H : %d.%d\t\n", DHT11_data.humidity_int, DHT11_data.humidity_float);
     DHT11_Read_Temperature_and_Humidity(&DHT11_data);
+    xQueueSend(TemperatureHandle, &DHT11_data.temperature_int, 0);
+    //printf("T : %d.%d\n", DHT11_data.temperature_int, DHT11_data.temperature_float);
+    xQueueSend(HumidityHandle, &DHT11_data.humidity_int, 0);
+    //printf("H : %d.%d\t\n", DHT11_data.humidity_int, DHT11_data.humidity_float);
     osDelay(5000);
   }
   /* USER CODE END StartDHT11 */
@@ -335,15 +348,77 @@ void StartDHT11(void const * argument)
 void StartOLED(void const * argument)
 {
   /* USER CODE BEGIN StartOLED */
+    uint8_t T_int = 0;
+    uint8_t T_float = 0;
+
+    uint8_t H_int = 0;
+    uint8_t H_float = 0;
+
+    //title
+    for(int i=0; i<7; i++)
+    {
+        OLED_Put_Char(i+1, 0, title[i]);
+    }
+
+
+    //temp
+    OLED_Put_Char(2, 5, Characters[0]);//T
+    OLED_Put_Char(3, 5, Characters[1]);//:
+    //OLED_Put_Char(6, 5, Characters[3]);//.
+    OLED_Put_Char(8, 5, Characters[4]);//°
+    OLED_Put_Char(9, 5, Characters[5]);//C
+    //he
+    OLED_Put_Char(2, 6, Characters[2]);//H
+    OLED_Put_Char(3, 6, Characters[1]);//:
+    //OLED_Put_Char(6, 6, Characters[3]);//.
+    OLED_Put_Char(9, 6, Characters[6]);//%
 
   /* Infinite loop */
   for(;;)
   {
-      //OLED_Put_Char(0, 0);
-      OLED_Put_Char(10, 10);
-    osDelay(1000);
+      xQueueReceive(TemperatureHandle, &T_int, 0);
+      xQueueReceive(HumidityHandle, &H_int, 0);
+
+
+      //温度�??�?
+      OLED_Put_Char(6, 5, Numbers[T_int/10]);
+      //温度个�?
+      OLED_Put_Char(7, 5, Numbers[T_int%10]);
+
+      //湿度个�?
+      OLED_Put_Char(6, 6, Numbers[H_int/10]);
+      //湿度�??�?
+      OLED_Put_Char(7, 6, Numbers[H_int%10]);
+
+
+    osDelay(5000);
   }
   /* USER CODE END StartOLED */
+}
+
+/* USER CODE BEGIN Header_StartESP01S */
+/**
+* @brief Function implementing the ESP01S thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_StartESP01S */
+void StartESP01S(void const * argument)
+{
+  /* USER CODE BEGIN StartESP01S */
+
+  uint8_t s[128];
+  /* Infinite loop */
+  for(;;)
+  {
+    //printf("send:");
+    //HAL_UART_Transmit(&huart2, (uint8_t *)"AT+CGMI\n", 8, 0x99);
+    //printf("ESP01S : %s\n", s);
+
+
+    osDelay(1000);
+  }
+  /* USER CODE END StartESP01S */
 }
 
 /* Private application code --------------------------------------------------*/

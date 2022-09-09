@@ -58,6 +58,8 @@ void MX_FREERTOS_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint8_t a;
+uint8_t b;
 
 /* USER CODE END 0 */
 
@@ -92,10 +94,17 @@ int main(void)
   MX_USART1_UART_Init();
   MX_I2C1_Init();
   MX_SPI1_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   RetargetInit(&huart1);
   LED_Init();
   OLED_Init();
+  ESP_Init();
+
+  HAL_UART_Receive_IT(&huart2, &a, 1);
+  HAL_UART_Receive_IT(&huart1, &b, 1);
+
+
 
   /* USER CODE END 2 */
 
